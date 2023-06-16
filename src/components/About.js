@@ -12,21 +12,21 @@ export default function About() {
               </p>
               <div className="flex justify-center">
                 <a
-                  href="#contact"
-                  className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                  Help Me Help You
+                  href="#projects"
+                  className="inline-flex text-white bg-rose-500 border-0 py-2 px-6 focus:outline-none hover:bg-rose-800 hover:text-white rounded text-lg">
+                  See My Stuff
                 </a>
                 <a
-                  href="#projects"
-                  className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                  See My Stuff
+                  href="#contact"
+                  className="ml-4 inline-flex text-white bg-lime-500 border-0 py-2 px-6 focus:outline-none hover:bg-lime-600 rounded text-lg">
+                  Help Me Help You
                 </a>
               </div>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img
                 className="object-cover object-center rounded"
-                alt="A perfectly acceptable DMV mugshot."
+                alt="A perfectly acceptable Illinois DMV mugshot."
                 src="./andres.svg"
                 style={{ width: '200px', height: '300px' }}
 
