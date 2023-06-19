@@ -35,8 +35,11 @@ export default function About() {
             Hi, I'm Andres.
             <br className="hidden lg:inline-block" /> Welcome to my homepage.
           </h1>
-          <p className="mb-8 leading-relaxed">
-            I'm an aspiring web developer based in Chicago. That's me on the right.
+          <p className="mb-2 leading-relaxed">
+            I'm an aspiring web developer based in Chicago. 
+          </p>
+          <p className="mb-4 leading-relaxed">
+            That's me on the far right. The dog's name is Obie.
           </p>
           <div className="flex justify-center">
             <a
@@ -52,6 +55,15 @@ export default function About() {
               Help Me Help You
             </a>
           </div>
+          <div>
+          <img
+            id="obie-image"
+            className="object-cover object-center rounded"
+            alt="This is Obie. He's precious"
+            src="./obie.png"
+            style={{ width: "200px", height: "150px", position: "absolute" }}
+          />
+          </div>
         </div>
         <div className="order-first md:order-last">
           <img
@@ -59,13 +71,6 @@ export default function About() {
             alt="A perfectly acceptable Illinois DMV mugshot."
             src="./andres.svg"
             style={{ width: "200px", height: "300px" }}
-          />
-          <img
-            id="obie-image"
-            className="object-cover object-center rounded"
-            alt="This is Obie. He is precious"
-            src="./obie.png"
-            style={{ width: "200px", height: "150px", position: "absolute" }}
           />
         </div>
       </div>
