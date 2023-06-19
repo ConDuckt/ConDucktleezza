@@ -4,8 +4,8 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-amber-200 bg-neutral-800 body-font">
-        <div className="text-center  bg-gray-800 rounded container px-5 py-10 mx-auto">
+    <section id="projects" className="text-amber-200 bg-neutral-900 body-font">
+        <div className="text-center  bg-neutral-950 rounded container px-5 py-10 mx-auto">
             {/* <ChipIcon className="w-10 inline-block mb-4" /> */}
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
                 Here It Is
@@ -15,7 +15,7 @@ export default function Projects() {
             </p>
         </div>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20 bg-gray-800 rounded">
+        <div className="flex flex-col w-full mb-20 bg-neutral-900 rounded">
         </div>
 
         <div className="flex flex-wrap -m-4">
@@ -30,7 +30,7 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-neutral-900 bg-neutral-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-neutral-900 bg-neutral-950 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-rose-500 mb-1">
                     {project.subtitle}
                   </h2>

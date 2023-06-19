@@ -1,51 +1,51 @@
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Regex Explainer",
+      subtitle: "Gist Foray",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "My first Gist, which I wrote as a step-by step guide to an email-matching regex.",
+      image: "./project-1.png",
+      link: "https://gist.github.com/ConDuckt/e173d0b175c8d005bfe8eada1f625155",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "ConDuckt's Drydock",
+      subtitle: "HTML/CSS",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reactbootcamp.com",
+        "A pre-JavaScript iteration of this page. I think we've come a long way.",
+      image: "./project-2.png",
+      link: "https://conduckt.github.io/conduckt-drydock/",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Logorator",
+      subtitle: "Node.js",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://reactbootcamp.com",
+        "Make yourself a simple SVG logo with this terminal-based app.",
+      image: "./project-3.png",
+      link: "https://github.com/ConDuckt/logorator",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Kidding Kitties",
+      subtitle: "Web API Mashup",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://reactbootcamp.com",
+        "What happens when you combine APIs from a ped adoption agency with one full of awesome jokes.",
+      image: "./project-4.png",
+      link: "https://chi-town-coders.github.io/kidding-kitties/",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Knowledge is Power",
+      subtitle: "Quiz App Using MySQL",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://reactbootcamp.com",
+        "Find out the depth of your trivia skills with this web app.",
+      image: "./project-5.png",
+      link: "https://knowledge-is-power.herokuapp.com/login",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "TBD",
+      subtitle: "Full Stack App",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://reactbootcamp.com",
+        "Coming soon! My bootcamp final project.",
+      image: "./coming-soon.png",
+      // link: "",
     }
   ];
   
