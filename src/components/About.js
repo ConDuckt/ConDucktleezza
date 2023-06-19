@@ -1,31 +1,24 @@
-import React, { useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 export default function About() {
+  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+  const [isObieVisible, setIsObieVisible] = useState(true);
+
   useEffect(() => {
-    const image = document.querySelector("#obie-image");
+    const handleMouseMove = (event) => {
+      setCursorPosition({ x: event.clientX, y: event.clientY });
+    };
 
-    function moveImage(event) {
-      const x = event.clientX;
-      const y = event.clientY;
-      image.style.left = x + "px";
-      image.style.top = y + "px";
-    }
-
-    function handleClick() {
-      document.addEventListener("mousemove", moveImage);
-    }
-
-    function handleRefresh() {
-      document.removeEventListener("mousemove", moveImage);
-    }
-
-    image.addEventListener("click", handleClick);
+    document.addEventListener('mousemove', handleMouseMove);
 
     return () => {
-      image.removeEventListener("click", handleClick);
-      handleRefresh();
+      document.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
+
+  const handleImageClick = () => {
+    setIsObieVisible(false);
+  };
 
   return (
     <section id="about">
@@ -38,8 +31,11 @@ export default function About() {
           <p className="mb-2 leading-relaxed">
             I'm an aspiring web developer based in Chicago. 
           </p>
-          <p className="mb-4 leading-relaxed">
+          <p className="mb-2 leading-relaxed">
             That's me on the far right. The dog's name is Obie.
+          </p>
+          <p className="mb-4 leading-relaxed">
+            Don't worry, he's just here for the intro.
           </p>
           <div className="flex justify-center">
             <a
@@ -55,22 +51,29 @@ export default function About() {
               Help Me Help You
             </a>
           </div>
-          <div>
-          <img
-            id="obie-image"
-            className="object-cover object-center rounded"
-            alt="This is Obie. He's precious"
-            src="./obie.png"
-            style={{ width: "200px", height: "150px", position: "absolute" }}
-          />
-          </div>
+          {isObieVisible && (
+            <img
+              id="obie-image"
+              className="object-cover object-center rounded"
+              alt="This is Obie. He's precious"
+              src="./obie.png"
+              style={{
+                width: '200px',
+                height: '150px',
+                position: 'absolute',
+                top: `${cursorPosition.y}px`,
+                left: `${cursorPosition.x}px`,
+              }}
+              onClick={handleImageClick}
+            />
+          )}
         </div>
         <div className="order-first md:order-last">
           <img
             className="object-cover object-center rounded"
             alt="A perfectly acceptable Illinois DMV mugshot."
             src="./andres.svg"
-            style={{ width: "200px", height: "300px" }}
+            style={{ width: '200px', height: '300px' }}
           />
         </div>
       </div>
