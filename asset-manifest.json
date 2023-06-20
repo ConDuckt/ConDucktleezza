@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.54c34dcf.css",
-    "main.js": "/static/js/main.e8d8d0c9.js",
-    "index.html": "/index.html",
-    "main.54c34dcf.css.map": "/static/css/main.54c34dcf.css.map",
-    "main.e8d8d0c9.js.map": "/static/js/main.e8d8d0c9.js.map"
+    "main.css": "/ConDucktor/static/css/main.54c34dcf.css",
+    "main.js": "/ConDucktor/static/js/main.e8d8d0c9.js",
+    "index.html": "/ConDucktor/index.html",
+    "main.54c34dcf.css.map": "/ConDucktor/static/css/main.54c34dcf.css.map",
+    "main.e8d8d0c9.js.map": "/ConDucktor/static/js/main.e8d8d0c9.js.map"
   },
   "entrypoints": [
     "static/css/main.54c34dcf.css",
