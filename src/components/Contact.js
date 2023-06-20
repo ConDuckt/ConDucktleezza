@@ -27,38 +27,6 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-neutral-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex flex-col items-center justify-center relative">
-                <div className="lg:w-1/2 px-6">
-                    <a href="https://github.com/ConDuckt" target="_blank">
-                        <img
-                            className="object-cover object-center rounded mb-4"
-                            alt="GitHub."
-                            src="./github.svg"
-                            style={{ width: '50px', height: '50px' }}
-                        />
-                    </a>
-                </div>
-                <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                    <a href="https://www.linkedin.com/in/andr%C3%A9s-mir%C3%B3-10b67565/" target="_blank">
-                        <img
-                            className="object-cover object-center rounded mb-4"
-                            alt="LinkedIn"
-                            src="./linkedin.svg"
-                            style={{ width: '50px', height: '50px' }}
-                        />
-                    </a>
-                </div>
-                <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                    <a href="https://twitter.com/Con_Duckt" target="_blank">
-                        <img
-                            className="object-cover object-center rounded mb-4"
-                            alt="Twitter"
-                            src="./twitter.svg"
-                            style={{ width: '50px', height: '50px' }}
-                        />
-                    </a>
-                </div>
-            </div>
         <form
           netlify
           name="contact"

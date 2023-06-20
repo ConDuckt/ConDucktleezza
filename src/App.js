@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   const [activeComponent, setActiveComponent] = useState("About");
@@ -27,6 +28,7 @@ function App() {
     <main className="text-amber-200 bg-neutral-900 body-font">
       <Navbar setActiveComponent={setActiveComponent} />
       {renderComponent()}
+      <Footer />
     </main>
   );
 }

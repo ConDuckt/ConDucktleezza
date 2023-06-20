@@ -54,7 +54,7 @@ export default function About() {
           {isObieVisible && (
             <img
               id="obie-image"
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded obie-image"
               alt="This is Obie. He's precious"
               src="./obie.png"
               style={{
@@ -68,7 +68,7 @@ export default function About() {
             />
           )}
         </div>
-        <div className="order-first md:order-last">
+        <div className="order-first md:order-last bg-neutral-900">
           <img
             className="object-cover object-center rounded"
             alt="A perfectly acceptable Illinois DMV mugshot."
