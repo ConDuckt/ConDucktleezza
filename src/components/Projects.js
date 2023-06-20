@@ -5,7 +5,7 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects" className="text-amber-200 bg-neutral-900 body-font">
-        <div className="text-center  bg-neutral-950 rounded container px-5 py-10 mx-auto my-4">
+        <div className="text-center  bg-neutral-950 rounded container px-5 py-5 mx-auto my-4">
             {/* <ChipIcon className="w-10 inline-block mb-4" /> */}
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-rose-500 mb-4">
                 Here It Is
