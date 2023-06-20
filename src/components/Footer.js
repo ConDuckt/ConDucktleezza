@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     return (
-      <footer className="bg-neutral-900 py-10">
+      <footer className="bg-neutral-950 py-10">
         <div className="container mx-auto flex items-center justify-center">
           <div className="flex justify-center space-x-6">
             <a href="https://github.com/ConDuckt" target="_blank">

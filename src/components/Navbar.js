@@ -11,7 +11,7 @@ export default function Navbar({ setActiveComponent }) {
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a
             href="#about"
-            className="ml-3 text-xl hover:text-gray-500"
+            className="ml-3 text-xl text-gray-200 hover:text-gray-600"
             onClick={() => handleClick("About")}
           >
             ConDuckt
@@ -27,19 +27,19 @@ export default function Navbar({ setActiveComponent }) {
           </a>
           <a
             href="#skills"
-            className="mr-5 text-white hover:text-gray-500"
+            className="mr-5 text-cyan-400 hover:text-cyan-800"
             onClick={() => handleClick("Skills")}
           >
             Skills
           </a>
-        </nav>
-        <a
+          <a
           href="#contact"
-          className="text-lime-500 inline-flex items-center bg-neutral-800 border-0 py-1 px-3 focus:outline-none hover:bg-lime-900 rounded text-base mt-4 md:mt-0"
+          className="mr-5 text-lime-500 hover:text-lime-900"
           onClick={() => handleClick("Contact")}
         >
           Contact
         </a>
+        </nav>
       </div>
     </header>
   );
